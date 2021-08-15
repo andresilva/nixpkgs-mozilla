@@ -145,7 +145,7 @@ let
       # Add a dependency on the signature check.
       src = fetchVersion info;
     })) {
-      browserName = "firefox";
+      applicationName = "firefox";
       pname = "firefox-bin";
       desktopName = "Firefox";
     };
